@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));// Toma todo lo de src y lo inyecta en el div con id root
+root.render( // Renderiza el componente App en el div con id root
   <React.StrictMode>
     <App />
   </React.StrictMode>
